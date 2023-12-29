@@ -22,7 +22,9 @@ body {
 
 .titleImg {
   margin: 0vw auto;
-  width: 50%;
+  width: 70%;
+  position: relative;
+  bottom: 4vw;
 }
 
 .titleImg img {
@@ -37,7 +39,7 @@ body {
   background: none;
   box-shadow: none;
   border: none;
-  top: 2rem;
+  top: 12rem;
   width: 20%;
   height: 7%;
 }
@@ -95,14 +97,14 @@ span {
 
 .schedule-table {
   filter: brightness(0.8);
-  width: 85%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 23% 25% 26%;
   /* Three columns */
-  grid-gap: 3px;
+  grid-gap: 1px;
   /* Adjust the gap between images as needed */
+  place-content: center;
   margin: 0 auto;
-  padding-top: -3rem;
+  padding-inline: 2vw;
 }
 
 .schedule-table img {
@@ -173,6 +175,7 @@ span {
     padding: 0.5vw 2vw;
     border-radius: 1.5vw;
     height: 5vw;
+    background: #060e79c7;
 }
 
 .leader-beans img {
@@ -229,6 +232,7 @@ span {
   background: transparent;
   width: 20%;
   height: 20%;
+  margin-top: -1.5rem;
 }
 
 .closeBtn img {
@@ -344,23 +348,25 @@ span {
 }
 
 .reward-top {
-  position: absolute;
-  /* top: 18vw;
-  width: 28vw;
-  right: 36%; */
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 7vw;
+  margin-top: -2rem;
 }
 
-/* .reward-top sapn {
+.reward-top span {
   z-index: 1;
   font-size: 4vw;
   color: #fff;
   text-wrap: nowrap;
   font-weight: 600;
-} */
+  position: absolute;
+}
+
+.reward-top img{
+  width: 25%;
+}
 
 
 .wrapper-leaderboard{
