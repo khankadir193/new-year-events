@@ -39,7 +39,7 @@ body {
   background: none;
   box-shadow: none;
   border: none;
-  top: 12rem;
+  top: 10rem;
   width: 20%;
   height: 7%;
 }
@@ -67,13 +67,13 @@ body {
 
 span {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .schedule {
   margin: 0vw auto;
   width: 96%;
-  height: 72vw;
+  /* height: 72vw; */
   background-image: url(./image/Schedule-bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -260,8 +260,8 @@ span {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80vh;
-  padding-inline: 3vw;
+  height: 70vh;
+  /* padding-inline: 3vw; */
 }
 
 .text {
