@@ -176,7 +176,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid gold;
+  /* border: 1px solid gold; */
     padding: 0.5vw 2vw;
     border-radius: 1.5vw;
     height: 5vw;
